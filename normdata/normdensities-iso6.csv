@@ -1,0 +1,13 @@
+logH	logD	time
+
+# ----------------------------------------------------------
+#
+#   This mimicks a ISO-6 compliant film developing:
+#   From logH exposure 0.3 with density 0.1
+#   1.3 logH units to the right where density is 0.8 units greater than 0.1
+#
+# ----------------------------------------------------------
+
+0	0	0
+0.301029995663981	0.1	0
+1.601029995663981	0.9	0
