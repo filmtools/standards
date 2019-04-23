@@ -1,5 +1,6 @@
 {
   "name": "filmtools/standards",
+  "description": "Interfaces and Classes for FilmTools' Film developing standards",
   "type": "library",
 
   "license": "MIT",
@@ -28,7 +29,12 @@
   "require-dev": {
       "php-coveralls/php-coveralls": "^2.0",
       "phpunit/phpunit": "^5.7|^6.0|^7.0",
-      "spatie/phpunit-watcher": "^1.8"
+      "spatie/phpunit-watcher": "^1.8",
+      "pimple/pimple": "^3.2"
+  },
+
+  "suggest": {
+      "pimple/pimple": "This library comes with a Pimple ServiceProvider."
   },
 
   "scripts": {
